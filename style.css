@@ -585,6 +585,10 @@ footer label {
         height: 100% !important;
     }
 
+    .box_right {
+    margin-top: 15px;
+    }
+
     .grid,
     .blog .grid {
         grid-template-columns: repeat(1, 1fr);
@@ -594,6 +598,10 @@ footer label {
     .box_right,
     .box_left {
         width: 100%;
+    }
+
+    .top {
+    margin-top: 20px;
     }
 
      .sale .left,
@@ -606,6 +614,10 @@ footer label {
   .sale .left {
     margin-bottom: 50px;
   }
+
+  .sale .right {
+    margin-top: -30%;
+}
 
   .sale .text {
     left: -16%;
