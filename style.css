@@ -519,7 +519,11 @@ footer label {
     .logo h1 {
     font-size: 32px;
     margin-top: 5px;
-}
+    }
+
+    .home .left {
+    padding: 10%;
+    }
 
     .offer .text {
         top: 0%;
@@ -602,6 +606,15 @@ footer label {
   .sale .left {
     margin-bottom: 50px;
   }
+
+  .sale .text {
+    left: -16%;
+}
+
+.sale .para {
+    left: 20%;
+    padding: 45px;
+}
 
   footer .head {
     flex-direction: column;
