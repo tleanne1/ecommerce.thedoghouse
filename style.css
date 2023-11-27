@@ -516,6 +516,11 @@ footer label {
         height: auto;
     }
 
+    .logo h1 {
+    font-size: 32px;
+    margin-top: 5px;
+}
+
     .offer .text {
         top: 0%;
         left: 0%;
