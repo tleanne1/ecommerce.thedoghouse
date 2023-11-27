@@ -270,3 +270,68 @@ button:hover {
     border-bottom: 2px solid #000000;
 }
 /*-----------offer----------*/
+/*----------product---------*/
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+
+.product {
+    text-align: center;
+}
+
+.product h2 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.product .box {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 20%;
+    left: 15%;
+    opacity: 0;
+    transition: .5s;
+}
+
+.overlay i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    margin: 10px;
+    background: #ffffff;
+}
+
+.product h4 {
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.product h4:nth-child(2) {
+    color: #53A8B6;
+    font-weight: bold;
+}
+
+.product h4 span {
+    color: #000000;
+    text-decoration: line-through;
+    margin-right: 20px;
+    color: #5e5e5e;
+}
+
+.product .box:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.product i:hover {
+    background: #53A8B6;
+    color: #ffffff;
+}
+/*----------product---------*/
