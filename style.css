@@ -508,3 +508,101 @@ footer label {
     font-size: 13px;
 }
 /*----------footer----------*/
+@media only screen and (max-width:768px) {
+    .home .box_right .img,
+    .box_left,
+    .box_right,
+    .home {
+        height: auto;
+    }
+
+    .offer .text {
+        top: 0%;
+        left: 0%;
+    }
+
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .sale .container {
+        flex-direction: column;
+    }
+
+    .sale img {
+        width: auto;
+        height: auto;
+    }
+
+    .sale .right,
+    .sale .left {
+        width: 100%;
+    }
+
+    .sale .right {
+        margin-top: 20%;
+    }
+
+    .sale .text {
+        left: -10%;
+    }
+
+    .blog .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width:511px) {
+    .account {
+        display: none;
+    }
+
+    header nav ul {
+        position: absolute;
+        top: 40px;
+    }
+
+    .home .container,
+    .offer .container {
+        flex-direction: column;
+    }
+
+    .left, .right {
+        width: 100%;
+    }
+
+    .home img {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .grid,
+    .blog .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .home .box_right .img,
+    .box_right,
+    .box_left {
+        width: 100%;
+    }
+
+     .sale .left,
+  .offer .right,
+  .offer .left {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .sale .left {
+    margin-bottom: 50px;
+  }
+
+  footer .head {
+    flex-direction: column;
+  }
+
+  footer .input {
+    width: 100%;
+  }
+}
